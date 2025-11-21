@@ -3,11 +3,6 @@
     "description": "The Future of PHP Frameworks. Lightweight, Fast, and Modern.",
     "type": "project",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Rival Akmal",
-             "email": "rival.akmal@trilogi.ac.id"
-        }
     ],
     "minimum-stability": "stable",
     "require": {
