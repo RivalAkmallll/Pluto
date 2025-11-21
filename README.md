@@ -85,11 +85,11 @@ HTML
 🌐 Community & Support
 Join the Pluto explorers!
 
-GitHub: RivalAkmal03/Pluto (Star us if you love Pluto!)
+GitHub: https://github.com/RivalAkmallll/Pluto/tree/main (Star us if you love Pluto!)
 
 Discord: 
 
-Twitter: @
+Twitter: 
 
 📄 License
 Pluto is open-source software licensed under the MIT License.
