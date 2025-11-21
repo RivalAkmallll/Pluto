@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://pluto-framework.dev" target="_blank">
-    <img src="https://i.imgur.com/your-pluto-logo-link.svg" alt="Pluto Logo" width="180"> 
+    <img src="https://i.imgur.com/zx27nWw.jpeg" alt="Pluto Logo" width="180"> 
   </a>
 </p>
 
