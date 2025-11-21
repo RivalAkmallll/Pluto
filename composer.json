@@ -3,7 +3,6 @@
     "description": "The Future of PHP Frameworks. Lightweight, Fast, and Modern.",
     "type": "project",
     "license": "MIT",
-    ],
     "minimum-stability": "stable",
     "require": {
         "php": "^8.0"
