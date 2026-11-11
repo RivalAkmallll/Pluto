@@ -1,97 +1,50 @@
-# Pluto: The Reactive Framework That's Out of This World 🚀
+# Pluto
 
 <p align="center">
-  <a href="https://pluto-framework.dev" target="_blank">
-    <img src="https://i.imgur.com/zx27nWw.jpeg" alt="Pluto Logo" width="180"> 
+  <a href="https://pluto-framework.dev">
+    <img src="https://i.imgur.com/zx27nWw.jpeg" alt="Pluto Logo" width="180">
   </a>
 </p>
 
 <p align="center">
-  <strong>Fast. Reactive. Simple.</strong>
-  <br>
-  Pluto brings a new galaxy of performance to web development with its innovative signals-based reactivity.
+  <strong>A lightweight, reactive framework for building modern web applications.</strong>
 </p>
 
 ---
 
-## ✨ What is Pluto?
+## Project Discontinued
 
-Pluto is a next-generation reactive UI framework built to simplify web development and boost application performance. Inspired by the best modern techniques, **Pluto compiles your components directly into highly optimized vanilla JavaScript**, eliminating the need for a Virtual DOM and achieving exceptional speed.
+**Pluto is no longer under active development.**
 
-### Why Choose Pluto?
+Development on Pluto has officially ended as we've decided to shift our focus to a new project, **[Onion](https://github.com/RivalAkmallll/onion)**, an experimental programming language built in Rust.
 
-* **True Reactivity:** Built from the ground up with **Signals**, Pluto offers superior reactivity that updates only the parts of the DOM that actually change, without the Virtual DOM overhead.
-* **Compile-Time Magic:** Pluto shifts much of the heavy lifting to the **compile step**. Your components are transformed into small, efficient JavaScript code, leading to faster load times.
-* **Minimal Boilerplate:** Write less code, achieve more. Pluto's syntax is designed to be intuitive and direct, letting you focus on features.
+Pluto was an exploration of compiler-driven development and fine-grained reactivity. While the project won't receive further updates, its source code will remain available for anyone interested in learning from it or building upon it.
+
+All future development efforts will be focused on Onion.
+
+**Check out our new project: [Onion Programming Language](https://github.com/RivalAkmallll/onion)**
+
+Thank you to everyone who took an interest in Pluto.
 
 ---
 
-## 🚀 Getting Started
+## About Pluto
 
-Ready to explore a new frontier in web development?
+Pluto was an experimental reactive JavaScript framework designed around simplicity, performance, and a compiler-driven approach to building web interfaces.
 
-### 1. Create a New Pluto Project
+It used signals for fine-grained reactivity and compiled components into JavaScript that updated the DOM directly, without relying on a Virtual DOM.
 
-Use our official scaffolding tool to get your project up and running instantly:
+## Repository Status
 
-```bash
-npm create pluto-app my-pluto-project
-cd my-pluto-project
-```
+This repository is preserved for reference and archival purposes.
 
-### 2. Run the Development Server
+- **Status:** Discontinued
+- **Maintenance:** No further updates planned
+- **Successor project:** [Onion](https://github.com/RivalAkmallll/onion)
+- **License:** MIT
 
-```
-Bash
-npm install
-npm run dev
-```
-Your Pluto app will be accessible at http://localhost:5173/ (or similar address).
+---
 
-## 3. Build for Production
-When your application is ready to launch into orbit:
-```
-Bash
-npm run build
-```
-This command generates highly optimized static assets in the dist folder, ready for deployment.
-
-## 🪐 Pluto Core Concepts
-Signals: The Heart of Reactivity
-Pluto's reactivity is powered by Signals. A Signal is a simple value that automatically notifies any code depending on it whenever its value changes.
-
-Component Example:
-```
-HTML
-
-<script>
-  import { createSignal } from 'pluto';
-
-  // Initialize a reactive signal
-  const countSignal = createSignal(0); 
-  
-  const increment = () => {
-    // Updating the signal automatically updates the UI
-    countSignal.set(countSignal.get() + 1); 
-  };
-</script>
-
-<div>
-  <h1>Pluto Counter: {countSignal.get()}</h1> 
-  <button onclick="increment()">Increment</button>
-</div>
-```
-
-🌐 Community & Support
-Join the Pluto explorers!
-
-GitHub: https://github.com/RivalAkmallll/Pluto/tree/main (Star us if you love Pluto!)
-
-Discord: 
-
-Twitter: 
-
-📄 License
-Pluto is open-source software licensed under the MIT License.
-
-<p align="center"> Made with ❤️ by Rival Akmal and the Pluto Contributors </p>
+<p align="center">
+  Created by <a href="https://github.com/RivalAkmallll">Rival Akmal</a>.
+</p>
